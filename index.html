@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="img/logo.png">
+    <title>Agro Rio Produtos Agropecuarios</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="img/logo2.png" width="200px" alt="logo"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="tratamentos.html">Tratamentos</a></li>
+                <li><a href="injetaveis.html">Injetaveis</a></li>
+                <li><a href="agricultura.html">Agricultura</a></li>
+            </ul>
+        </nav>
+        <a href="contato.html"><button class="btn-contact">Contato</button></a>
+    </header>
+
+    <!-- Main Presentation -->
+    <div class="main-home-area">
+        <div class="main-home-img">
+            <h1> AgroRio </h1>
+            <p>Conheça nossos produtos</p>
+            <button class="more-about-btn" onclick="scrollToContent()">Saiba mais</button>
+        </div>
+    </div>
+
+    <!-- Pagina Principal -->
+    <div class="body-content">
+        <div class="body-content-divs">
+            <ul class="main-content">
+                <li>
+                    <a href="produtos.html" target="_blank"><img class="home-img" src="img/2.jfif"></a>
+                </li>
+                <li>
+                    <h2>Tratamentos</h2>
+                    <p class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non lobortis leo. Sed odio mi, consequat ac augue accumsan, interdum tempor sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis magna eget dolor scelerisque ultricies eget sit amet mauris.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="body-content-divs">
+            <ul class="main-content">
+                <li>
+                    <h2>Injetaveis</h2>
+                    <p class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non lobortis leo. Sed odio mi, consequat ac augue accumsan, interdum tempor sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis magna eget dolor scelerisque ultricies eget sit amet mauris.</p>
+                </li>
+                <li>
+                    <a href="produtos.html" target="_blank"><img class="home-img" src="img/1.jfif"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="body-content-divs">
+            <ul class="main-content">
+                <li>
+                    <a href="produtos.html" target="_blank"><img class="home-img" src="img/3.jfif"></a>
+                </li>
+                <li>
+                    <h2>Agropecuaria</h2>
+                    <p class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non lobortis leo. Sed odio mi, consequat ac augue accumsan, interdum tempor sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis magna eget dolor scelerisque ultricies eget sit amet mauris.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- botao topo -->
+    <div onclick="scrollToTop()" class="scrollTop"> ⬆ </div>
+
+    <!-- footer -->
+    <div class="footer">
+        Copyright ₢2022 AgroRio
+    </div>
+
+    <script>
+        function scrollToTop(){
+            window.scrollTo(0, 0);
+        }
+
+        function scrollToContent(){
+            window.scrollTo(0, 890);
+        }
+    </script>
+</body>
+</html>
