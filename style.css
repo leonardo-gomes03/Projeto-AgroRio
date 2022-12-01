@@ -188,6 +188,7 @@ header {
     margin-bottom: 7rem;
 }
 .body-content-text{
+    color: #000;
     text-align: justify;
     max-width: 45rem;
 }
@@ -261,6 +262,7 @@ header {
 
 .card-text {
     padding: 8px;
+    color: #000;
 }
 
 .scrollTop {
