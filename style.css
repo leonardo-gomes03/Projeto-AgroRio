@@ -5,31 +5,29 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     margin-top: 20px;
     padding: 15px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+
 h2 {
     margin-top: 20px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
 
 li, a {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color:  #24252A;
     text-decoration: none;
 }
 
-button{
-    font-family: 'Poppins', sans-serif;
+button { 
     font-weight: 500;
     font-size: 16px;
 }
@@ -51,10 +49,12 @@ header {
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
-.logo:hover{
+
+.logo:hover {
     transform: scale3d(1.1, 1.1, 1);
     transition: all 0.5s ease 0s;
 }
+
 .nav-links {
     list-style: none;
 }
@@ -68,10 +68,12 @@ header {
 .nav-links li a {
     transition: all 0.3s ease 0s;
 }
+
 .nav-links li:hover {
     transition: all 0.2s ease 0s;
     transform: scale3d(1.03, 1.03, 1);
 }
+
 .nav-links li a:hover {
     color: #c1a065;
 }
@@ -85,13 +87,13 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.btn-contact:hover{
+.btn-contact:hover {
     background-color: rgba(193, 160, 101, 0.8);
     transition: all 0.5s ease 0s;
     transform: scale3d(1.1, 1.1, 10);
 }
 
-.main-home-area{
+.main-home-area {
     margin-top: -50px;
     margin-bottom: 20px;
     height: 800px;
@@ -119,7 +121,6 @@ header {
 
 .main-home-area p {
     font-size: 1.5em;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-bottom: 50px;
 }   
@@ -137,17 +138,18 @@ header {
     margin-left: 44.7%;
 }
 
-.more-about-btn:hover{
+.more-about-btn:hover {
     background-color: #e0e0e0;
     color: #000000;
 }
 
 /********** HOME PAGE ***********/
-.body-content{
+.body-content {
     text-align: center;
     margin-bottom: 30px;
 }
-.body-content-divs{
+
+.body-content-divs {
     text-align: center;
     margin-bottom: 7rem;
 }
@@ -157,13 +159,14 @@ header {
     display: inline-block;
     padding: 0px 20px;
 }
-.main-content img{
+
+.main-content img {
     margin: 20px 20px 0px 20px;
     width: 250px;
     height: 200px;
 }
 
-.main-content-text{
+.main-content-text {
     color: #000;
     text-align: justify;
     max-width: 45rem;
@@ -173,38 +176,44 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.home-img:hover{
+.home-img:hover {
     transition: all 0.5s ease 0s;
     transform: scale3d(1.1, 1.1, 10);
 }
 
 /******* ITENS PAGE ***********/
-.body-item-content{
+.body-item-content {
     text-align: center;
     margin-bottom: 30px;
 }
-.body-item-content-divs{
+
+.body-item-content-divs {
     text-align: center;
     margin-bottom: 7rem;
 }
-.body-content-text{
+
+.body-content-text {
     color: #000;
     text-align: justify;
     max-width: 45rem;
 }
-.body-content-img{
+
+.body-content-img {
     margin: 20px 0px 0px 20px;
     width: 20rem;
     border-radius: 1rem;
 }
+
 .body-item-content-ul {
     list-style: none;
     display: inline-block;
     padding: 0px 20px;
 }
+
 .body-item-content-ul h2 {
     padding-bottom: 2.5rem;
 }
+
 .body-item-content-ul li {
     list-style: none;
     display: inline-block;
@@ -284,28 +293,28 @@ header {
 }
 
 /***********  CONTATO *************/
-.contact-area{
+.contact-area {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.contact-align{
+.contact-align {
     display: inline-block;
     margin-left: 30px;
     transform: translateY(5%);
 }
 
-.topic{
+.topic {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 }
 
-.info{
+.info {
     margin-bottom: 25px;
 }
 
-.linha1 {
+.phone {
     display: flex;
 }
 
@@ -319,7 +328,6 @@ input, textarea {
     margin-top: 15px;
     margin-bottom: 8px;
     width: 400px;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     border-radius: .5rem;
     resize: none;
@@ -344,10 +352,11 @@ input, textarea {
     margin-left: 7.8rem;
 }
 
-.btn-send:hover{
+.btn-send:hover {
     background-color: #e0e0e0;
     color: #000000;
 }
+
 .btn-send-whatsapp {
     color: #f7f7f7;
     width: 26px;
@@ -356,14 +365,13 @@ input, textarea {
     transition: all 0.3s ease 0s;
 }
 
-.btn-send-whatsapp:hover{
+.btn-send-whatsapp:hover {
     color: #c7c7c7;
     transform: scale(1.1);
 }
 
 /********** FOOTER ***********/
 .footer {
-    font-family: 'Poppins', sans-serif;
     color: #f7f7f7;
     text-align: center;
     background-color: #24252A;
@@ -376,6 +384,7 @@ input, textarea {
 .footer-position {
     position: absolute;
 }
+
 .card-img:hover {
     opacity: 50%;
 }
@@ -397,7 +406,6 @@ input, textarea {
     opacity: 0%;
 }
 
-.card:hover  .description
-{
+.card:hover .description {
     opacity: 80%;
 }
