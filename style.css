@@ -234,7 +234,7 @@ header {
 
 .card {
     width: 350px;
-    height: 400px;
+    height: 550px;
     margin: 25px;
     background-color: #fff;
     border-radius: 25px;
@@ -245,33 +245,36 @@ header {
 
 .card:hover {
     transform: scale3d(1.05, 1.05, 1);
+    transition: all 0.5s ease 0s;
 }
 
 .card-header {
-    width: 100%;
-    height: 300px;
+    width: auto;
+    height: 450px;
     overflow: hidden;
 }
 
 .card-img {
-    min-width: 100%;
-    width: auto;
+    border-radius: 1.6rem;
+    padding: 15px;
+    width: 100%;
     height: 100%;
+    transition: all 0.5s ease 0s;
 }
 
+
 .card-body {
-    height: 100px;
     text-align: center;
     font-family: sans-serif;
 }
 
 .card-title {
-    font-size: 25px;
-    margin: 15px 0;
+    font-size: 34px;
+    margin: 10px 0;
 }
 
 .card-text {
-    padding: 8px;
+    padding: 2px;
     color: #000;
 }
 
@@ -386,23 +389,19 @@ input, textarea {
     position: absolute;
 }
 
-.card-img:hover {
-    opacity: 50%;
-}
-
 .description{
     position:relative;
     font-size: 18px;
     font-family: 'Poppins';
     text-align: justify; 
-    top: -320px;
+    top: -460px;
     padding:29px;
-    line-height:20px;
+    line-height:25px;
     background: black;
     color:white;
     display: block;
     border-radius: 15px;
-    height: 350px;
+    height: 450px;
     width: 100%;
     opacity: 0%;
 }
