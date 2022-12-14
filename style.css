@@ -127,10 +127,10 @@ header {
 }   
 
 .more-about-btn {
-    padding: 9px;
+    padding: 8px 19px;
     background-color: #222;
     color: #f7f7f7;
-    width: 200px;   
+    width: fit-content;   
     cursor: pointer;
     border: none;
     border-radius: 2.5rem;
@@ -138,7 +138,6 @@ header {
     font-size: 20px;
     margin: 0 auto;
 }
-
 .more-about-btn:hover {
     background-color: #e0e0e0;
     color: #000000;
@@ -152,7 +151,7 @@ header {
 
 .body-content-divs {
     text-align: center;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 .main-content li {
@@ -163,7 +162,7 @@ header {
 
 .main-content img {
     margin: 20px 20px 0px 20px;
-    width: 250px;
+    width: 170px;
     height: 200px;
 }
 
@@ -175,6 +174,7 @@ header {
 
 .home-img {
     transition: all 0.3s ease 0s;
+    border-radius: 12px;
 }
 
 .home-img:hover {
